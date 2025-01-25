@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>Jaum & Valentos</span>
+        </a>
+        <box-icon name='menu' id="menu-icon"></box-icon>
+        <nav class="navbar">
+            <a href="#home">Home</a> 
+            <a href="#about">About</a> 
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi there! <span>Jovelyn and Clarissa</span> here.</h1>
+            <h3 class="text-animation"><span></span></h3>
+            <p>
+                We're IT students excited to share our work with you. Browse our projects, get to know us, and feel free to reach out – we're always open to collaboration.
+            </p>
+        
+            <div class="social-icon">
+                <a href="https://web.facebook.com/jovelyn.valentos/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/_ms.jovelyn/profilecard/?igsh=MWRieXY4bzVleHpudQ%3D%3D&fbclid=IwZXh0bgNhZW0CMTAAAR0kN6oe4-GDCcCWH93Ddt07yTah30Xz3GXW6Rm0USTRB5u09gbP5ddWFCk_aem_hhOQM-AdM3_TFqaGLTUwiw" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/LuckyVyl"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="2.jpg" alt="">
+        </div>
+    </section>
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image.jpg" alt="" width="250" height="300">
+            </div>
+            <div class="about-col-2">
+                <h1>About Us</h1>
+                <p>We enjoy editing pictures and creating graphics together. We're passionate about designing and improving front-end interfaces. We love exploring web design and development, constantly learning and enhancing our skills. We find joy in every step. Our goal is to combine our creativity and technical skills to deliver impactful designs and solutions.</p>
+
+                <h2>We also love</h2>
+                <ul class="skills-list">
+                    <li>Travel</li>
+                    <li>Exploring new things</li>
+                    <li>Watching Movies</li>
+                    <li>Chismis</li>
+                </ul>
+
+               
+            </div>
+        </div>
+    </div>
+</div>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="6.avif" alt="" width="200" height="200">
+                <div class="portfolio-layer">
+                    <h4>Graphic Design</h4>
+                    <p>Take a look at our development in the realm of graphic design.</p>
+                    <a href="https://drive.google.com/drive/folders/1ijjdkgQy4NcQapnQCVahxYZTIBbO6X-9?usp=sharing"target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="graphics.jpg" alt="" width="200" height="200">
+                <div class="portfolio-layer">
+                    <h4>Photography</h4>
+                    <p>Explore our development in the art of photography.</p>
+                    <a href="https://drive.google.com/drive/folders/1-i-1E5dV7CLDhPAZrXWz93nKz8jxHVFl?usp=drive_link"target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="baba.jpg" alt="" width="200" height="200">
+                <div class="portfolio-layer">
+                    <h4>Output</h4>
+                    <p>Take a look at our other ouput.</p>
+                    <a href="https://drive.google.com/drive/folders/18961ZpA0fzgETJ6RVHuL-ABf9Z14ZOul?usp=sharing" target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+    
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="full_name" required>
+                <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" name="phone" required>
+                <input type="text" placeholder="Subject" name="subject" required> 
+            </div>
+            
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="message" class="message" style="display: none;"></div> <!-- Message placeholder -->
+    </section>
+  
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="https://facebook.com/Jovelyn.Valentos" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://instagram.com/_ms.jovelyn" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Jovelyn Valentos and Clarissa Mae Jaum| ALL Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
